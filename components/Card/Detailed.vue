@@ -4,6 +4,11 @@ const props = defineProps({
 });
 
 const openLink = (link) => {
+  if (link === "placeholder") {
+    alert("해당 프로젝트는 미완성입니다.");
+    return;
+  }
+
   window.open(link, "_blank");
 };
 </script>

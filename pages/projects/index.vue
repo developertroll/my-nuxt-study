@@ -7,7 +7,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <h1>포트폴리오</h1>
+  <h1 class="text-center">완성된 프로젝트들</h1>
   <div
     v-for="item in projects.data"
     :key="item.idx"
