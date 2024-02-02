@@ -7,9 +7,10 @@ const pData = data.value.data.find((item) => item.idx == route.params.idx);
 </script>
 
 <template>
-  <!-- <div>Hello world! This is {{ data }} Project page.</div> -->
-  <v-btn icon="mdi-arrow-left" @click="$router.back()" />
-  <div class="d-flex align-center flex-column">
-    <CardDetailed :project="pData"></CardDetailed>
-  </div>
+  <v-container transition="scroll-x-transition">
+    <v-btn icon="mdi-arrow-left" @click="$router.back()" />
+    <div class="d-flex align-center flex-column">
+      <CardDetailed :project="pData"></CardDetailed>
+    </div>
+  </v-container>
 </template>

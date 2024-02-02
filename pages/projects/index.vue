@@ -7,15 +7,17 @@ onMounted(() => {
 </script>
 
 <template>
-  <h1 class="text-center">완성된 프로젝트들</h1>
-  <div
-    v-for="item in projects.data"
-    :key="item.idx"
-    class="d-flex align-center flex-column"
-  >
-    <CardBase :project="item"></CardBase>
-    <br />
-    <v-divider></v-divider>
-    <br />
-  </div>
+  <v-container transition="scroll-x-transition">
+    <h1 class="text-center">완성된 프로젝트들</h1>
+    <div
+      v-for="item in projects.data"
+      :key="item.idx"
+      class="d-flex align-center flex-column"
+    >
+      <CardBase :project="item"></CardBase>
+      <br />
+      <v-divider></v-divider>
+      <br />
+    </div>
+  </v-container>
 </template>

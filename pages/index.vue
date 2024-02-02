@@ -1,5 +1,5 @@
 <template>
-  <v-card varian="outlined">
+  <v-card varian="outlined" transition="scroll-x-transition">
     <div class="text-center">
       <v-card-title>장태규의 포트폴리오 모음집</v-card-title>
     </div>
