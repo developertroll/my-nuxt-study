@@ -4,6 +4,10 @@ const { projects, loadProjects } = useProjects();
 onMounted(() => {
   loadProjects();
 });
+
+useHead({
+  title: "Projects",
+});
 </script>
 
 <template>

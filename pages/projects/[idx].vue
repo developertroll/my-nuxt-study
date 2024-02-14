@@ -4,6 +4,9 @@ const { data } = await useAsyncData("data", () =>
 );
 const route = useRoute();
 const pData = data.value.data.find((item) => item.idx == route.params.idx);
+useHead({
+  title: pData.title,
+});
 </script>
 
 <template>
