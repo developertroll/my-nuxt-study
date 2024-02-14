@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper.x3n3nnut.js";import{x as t,v as n}from"./entry.CUIvpTKM.js";const r={};function c(o,s){return n(),t("div",null,"This is Nuxt 3 Event Page")}const f=e(r,[["render",c]]);export{f as default};
