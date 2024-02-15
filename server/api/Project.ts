@@ -36,7 +36,7 @@ export default defineEventHandler((event) => {
       description: "nuxt.js를 활용해 포트폴리오를 모아놓은 사이트(현재 사이트)",
       detail:
         "nuxt.js를 활용해 만든 포트폴리오 사이트입니다. nuxt.js의 기본적인 기능과 vuetify를 활용해 만들었습니다. 현재 이 사이트이며, 추후 다른 프로젝트와 포트폴리오를 추가하기 쉽도록 만들었습니다.",
-      link: "placeholder",
+      link: "https://test.deo9rfjlyfmtg.amplifyapp.com/",
       imgLink: "/img/portpolio.png",
       tags: ["nuxt.js", "vuetify"],
     },
