@@ -2,6 +2,10 @@
 import vuetify, { transformAssetUrls } from "vite-plugin-vuetify";
 
 export default defineNuxtConfig({
+  app: {
+    baseURL: "/https://github.com/developertroll/my-nuxt-study/",
+    buildAssetsDir: "assets",
+  },
   devtools: { enabled: true },
   build: {
     transpile: [

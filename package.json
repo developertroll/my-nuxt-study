@@ -7,7 +7,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "gh-pages --dotfiles -d .output/public -f"
   },
   "devDependencies": {
     "nuxt": "^3.9.3",
@@ -21,6 +22,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/vue-fontawesome": "^3.0.5",
     "@mdi/font": "^7.4.47",
+    "gh-pages": "^6.1.1",
     "vite-plugin-vuetify": "^2.0.1",
     "vuetify": "^3.5.1"
   }
