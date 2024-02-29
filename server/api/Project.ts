@@ -42,6 +42,16 @@ export default defineEventHandler((event) => {
     },
     {
       idx: 4,
+      title: "고객문의 사이트",
+      description: "vue.js와 vuetify를 이용해 만든 고객문의 사이트",
+      detail:
+        "vue.js와 vuetify를 이용해 만든 고객문의 사이트입니다. 고객이 문의를 남기면 관리자가 확인할 수 있도록 만들었습니다. 또한, 관리자가 답변을 남기면 고객이 확인할 수 있도록 만들었습니다. 관리자와 고객이 보는 화면이 분리되어 있고 관리자만 특정 정보에 접속하여 수정할 수 있게 되어있습니다.",
+      link: "https://main.d27hglygzdetub.amplifyapp.com/",
+      imgLink: "placeholder",
+      tags: ["vue.js", "vuetify"],
+    },
+    {
+      idx: 5,
       title: "nextjs 간이 쇼핑몰",
       description: "nextjs, react를 활용한 간이 쇼핑몰",
       detail:
